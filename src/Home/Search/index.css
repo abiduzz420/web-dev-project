@@ -1,0 +1,106 @@
+.wd-search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.wd-searchimgdiv {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.wd-searchimg {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.wd-textoverimage {
+    margin-top: 20px;
+    font-weight: bolder;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wd-inputbox {
+    width: 60%;
+}
+
+@media (max-width: 572px) {
+    .wd-textoverimage {
+        font-size: 25px;
+    }
+
+    .wd-inputbox {
+        width: 60%;
+    }
+}
+
+@media (min-width: 573px) and (max-width: 649px) {
+    .wd-textoverimage {
+        font-size: 25px;
+    }
+
+    .wd-inputbox {
+        width: 60%;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 767px) {
+    .wd-textoverimage {
+        font-size: 30px;
+    }
+
+    .wd-inputbox {
+        width: 60%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .wd-textoverimage {
+        font-size: 30px;
+    }
+
+    .wd-inputbox {
+        width: 60%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .wd-textoverimage {
+        font-size: 40px;
+    }
+
+    .wd-inputbox {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .wd-textoverimage {
+        font-size: 40px;
+    }
+
+    .wd-inputbox {
+        width: 60%;
+    }
+
+    .wd-searchtxt {
+        background-color: lightgrey;
+        padding: 10px;
+        font-weight: bold;
+        color: white;
+    }
+}
+
+@media (min-width: 1401px) {
+    /* larger screen styles here */
+}
